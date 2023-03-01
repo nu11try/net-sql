@@ -12,4 +12,4 @@ SELECT name FROM collections WHERE year BETWEEN '2018-01-01' and '2020-12-31';
 
 SELECT name FROM performers WHERE NOT name LIKE '%% %%';
 
-SELECT name FROM tracks WHERE name LIKE '%%Мой%%';
+SELECT name FROM tracks WHERE name LIKE '%%Мой%%' OR name LIKE '%%мой%%';
